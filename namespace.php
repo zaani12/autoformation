@@ -24,3 +24,8 @@ $table->message();
 
 </body>
 </html>
+
+<!-- Declare a namespace called Html inside a namespace called Code -->
+<?php
+namespace Code\Html;
+?>
