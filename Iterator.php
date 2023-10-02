@@ -26,7 +26,9 @@ class MyIterator implements Iterator {
   }
 
   public function valid() {
+    
     // count() indicates how many items are in the list
+    
     return $this->pointer < count($this->items);
   }
 }
@@ -39,6 +41,7 @@ function printIterable(iterable $myIterable) {
 }
 
 // Use the iterator as an iterable
+
 $iterator = new MyIterator(["a", "b", "c"]);
 printIterable($iterator);
 ?>
