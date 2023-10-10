@@ -15,7 +15,7 @@ class childClass extends parentClass {
             $prefix = "";
 
         }
-        return "{$greet}{$prefix}{$separator} {$name }"
+        return "{$greet}{$prefix}{$separator} {$name }";
     }   
 }
 $class = new ChildClass;
